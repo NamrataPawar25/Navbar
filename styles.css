@@ -248,6 +248,10 @@ nav.instagram div.rightMenu i{
   width: auto;
   padding-left: 30px;
 }
+nav.linkedin div.leftMenu{
+  display: flex;
+  align-items: center;
+}
  nav.linkedin div.rightMenu{
   margin-right: 20px; 
 }
@@ -354,4 +358,18 @@ nav.bbc li.navItem a.navLink {
 
 nav.bbc .navItem a.navLink:hover {
   color: red !important;
+}
+.SerchBar{
+  background-color: rgb(232, 229, 229); 
+  display: flex; 
+  margin-left: 50px; 
+  height: 30px;
+  align-items: center;
+}
+.SerchBar input{
+  background-color: transparent; 
+  border: none;
+}
+.SerchBar i{
+  color: black; 
 }
